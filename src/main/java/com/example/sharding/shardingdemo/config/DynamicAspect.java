@@ -1,9 +1,3 @@
-/**
- * Project Name:youyuer-framework-proj
- * Package Name:com.youyuer.framework.common.component.RWDataSource
- * Date:2018/10/30下午6:26
- * Copyright (c) 2018, www.youyuer.com All Rights Reserved
- */
 package com.example.sharding.shardingdemo.config;
 
 import org.apache.shardingsphere.api.hint.HintManager;
