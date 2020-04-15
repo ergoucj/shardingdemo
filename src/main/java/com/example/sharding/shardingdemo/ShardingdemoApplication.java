@@ -8,7 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication(exclude={DruidDataSourceAutoConfigure.class})
-@ComponentScan(basePackages ="com.example")
 @MapperScan(basePackages = "com.example.sharding.shardingdemo.dao")
 public class ShardingdemoApplication {
 
