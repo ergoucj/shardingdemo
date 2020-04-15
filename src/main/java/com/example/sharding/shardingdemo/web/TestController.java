@@ -22,4 +22,9 @@ public class TestController {
     public List<Book> getAll(){
         return testService.getAll();
     }
+
+    @RequestMapping("/add")
+    public void add(){
+         testService.add();
+    }
 }

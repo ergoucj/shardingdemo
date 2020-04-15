@@ -1,17 +1,17 @@
 package com.example.sharding.shardingdemo.entity;
 
 public class Book {
-    private Integer id;
+    private String id;
 
     private String name;
 
     private Integer price;
 
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 
