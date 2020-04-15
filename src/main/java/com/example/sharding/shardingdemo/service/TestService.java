@@ -23,7 +23,7 @@ public class TestService {
         return bookMapper.selectByExample(example);
     }
 
-    @ShardingMasterConnection
+    // @ShardingMasterConnection
     public List<Book> get() {
         BookExample example = new BookExample();
         return bookMapper.selectByExample(example);
